@@ -45,10 +45,18 @@
 .navbar .active{
     padding-bottom: 2px;
     border-bottom: 3px solid #49557e;
+    cursor: pointer;
 }
 
 .navbar li{
+    text-decoration: none;
     cursor: pointer;
+    transition: text-decoration 0.3s ease;
+}
+.navbar li:hover{
+    /* text-decoration: underline; */
+    padding-bottom: 2px;
+    border-bottom: 3px solid #49557e;
 }
 
 .navbar-search-icon{
